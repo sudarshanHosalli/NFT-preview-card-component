@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL]: [https://your-solution-url.com](https://stupendous-semolina-23db64.netlify.app/)
+- [Live Site URL]: [https://your-live-site-url.com](https://github.com/sudarshanHosalli/NFT-preview-card-component)
 
 ## My process
 
@@ -42,9 +42,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
