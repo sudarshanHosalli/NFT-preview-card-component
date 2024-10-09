@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]: [https://github.com/sudarshanHosalli/NFT-preview-card-component/](https://github.com/sudarshanHosalli/NFT-preview-card-component/)
-- [Live Site URL]: [https://stupendous-semolina-23db64.netlify.app/](https://stupendous-semolina-23db64.netlify.app/)
+- Solution URL: [https://github.com/sudarshanHosalli/NFT-preview-card-component/](https://github.com/sudarshanHosalli/NFT-preview-card-component/)
+- Live Site URL: [https://stupendous-semolina-23db64.netlify.app/](https://stupendous-semolina-23db64.netlify.app/)
 
 ## My process
 
