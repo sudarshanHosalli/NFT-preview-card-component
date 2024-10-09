@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]: [https://your-solution-url.com](https://stupendous-semolina-23db64.netlify.app/)
-- [Live Site URL]: [https://your-live-site-url.com](https://github.com/sudarshanHosalli/NFT-preview-card-component)
+- [Solution URL]: [https://github.com/sudarshanHosalli/NFT-preview-card-component/](https://github.com/sudarshanHosalli/NFT-preview-card-component/)
+- [Live Site URL]: [https://stupendous-semolina-23db64.netlify.app/](https://stupendous-semolina-23db64.netlify.app/)
 
 ## My process
 
