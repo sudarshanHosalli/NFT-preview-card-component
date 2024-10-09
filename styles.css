@@ -1,0 +1,284 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  line-height: 1;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 1.5rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.main-container {
+  background-color: hsl(216, 50%, 16%);
+  padding: 1.5rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.hover-state {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(178, 100%, 50%, 0.397);
+  visibility: hidden;
+  z-index: -1;
+}
+
+.img-container:hover > .hover-state {
+  visibility: visible;
+  z-index: 1;
+  transition: visibility ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.nft-info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  padding-bottom: 1.5rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.para {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.price-time-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price,
+.time {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  color: hsl(215, 51%, 70%);
+}
+
+.creator-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar-img {
+  width: 35px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+}
+
+.creator-name {
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.creator-name > span {
+  color: hsl(215, 51%, 70%);
+}
+
+.heading:hover,
+.creator-name > span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+
+@media screen and (min-width: 500px) {
+  .main-container {
+    width: 320px;
+  }
+}
+
+/* @media screen and (min-width:1024px) {
+.img-container{
+   width: 329px;
+   height: 329px;
+}
+
+.img{
+width: 100%;
+}
+} */
